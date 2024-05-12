@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./assets/images/logo.jpg"
+          class="rounded-pill"
+          width="30"
+          height="24"
+        />
+      </a>
+      <a class="navbar-brand" href="shoppingcart.html">Shopping Cart</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Wisteria Bookstore</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid mt-4">
+      <h1>Keranjang Belanja</h1>
+      <div id="cart-items">
+        <!-- Konten keranjang akan dimuat oleh JavaScript -->
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a
+              href="index.html"
+              class="nav-link px-2"
+              style="color: rgb(249, 226, 195)"
+              >Wisteria Bookstore</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="shoppingcart.html"
+              class="nav-link px-2"
+              style="color: rgb(249, 226, 195)"
+              >Shopping Cart</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="contact.html"
+              class="nav-link px-2"
+              style="color: rgb(249, 226, 195)"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <p class="text-center" style="color: rgb(249, 226, 195)">
+          © 2024 Wisteria Bookstore. Semua hak dilindungi.
+        </p>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

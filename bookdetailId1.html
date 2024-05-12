@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Malioboro at Midnight</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./assets/images/logo.jpg"
+          class="rounded-pill"
+          width="30"
+          height="24"
+        />
+      </a>
+      <a class="navbar-brand" href="index.html">Wisteria Bookstore</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="shoppingcart.html">Shopping Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+      <h1>Malioboro at Midnight</h1>
+      <h2>by Skysphire</h2>
+      <img
+        src="./assets/images/Malioboro at Midnight.jpg"
+        class="img-thumbnail"
+        alt="..."
+      />
+
+      <div class="card border-light mb-3" style="max-width: 18rem">
+        <div class="card-header">Harga: Rp 69.300</div>
+      </div>
+
+      <p>
+        Tengah malam bagi kebanyakan orang adalah waktu terbaik untuk
+        beristirahat dan tidur lelap. Tapi untuk Serana Nighita, itu adalah
+        waktu untuk menangisi hidup dan meratapi hubungannya dengan sang
+        penyanyi terkenal, Jan Ichard. Popularitas membawa lelaki itu jauh
+        darinya, Ichard di Jakarta, meninggalkan Sera di Jogja.
+      </p>
+      <br />
+      <p>Bagi Sera, tengah malam selalu menakutkan.</p>
+      <br />
+      <p>
+        Namun, semua berubah setelah Malioboro Hartigan tidak sengaja mendobrak
+        pintu kamarnya pada sebuah malam. Malio datang dan menawarkan pertemanan
+        agar Sera tidak sendiri, agar Sera bisa berbagi sedihnya.
+      </p>
+      <br />
+      <p>
+        Lantas bagaimana dengan hubungan Sera dan Jan Ichard yang semakin rumit?
+        Dan benarkah tanpa sadar, Malio sudah menjadi 'Midnight' terbaik Sera?
+      </p>
+      <br />
+      <p>Tentang Penulis</p>
+      <p>
+        Hai aku Skysphire, si pecinta langit beserta segala isinya seperti
+        bulan, bintang, matahari, awan, hujan, dan juga petir. Aku lahir di
+        Jakarta pada 27 September 2001. Nama Sky bukan semata-mata diambil
+        karena aku suka langit, tapi karena aku juga suka SKY (Sehun, Kai, Yeol)
+        hehe.
+      </p>
+      <br />
+      <p>
+        Malioboro at Midnight adalah buku kelima yang diterbitkan sejak aku
+        aktif menulis dua tahun lalu. Bagiku, menulis adalah cara kita memandang
+        dunia dari sisi yang tak terduga. Di dunia ini banyak hal mustahil
+        terjadi, maka itu aku suka menciptakan segala hal mustahil itu lewat
+        tulisanku, karena hanya dari tiap goresan kata yang tertulislah semua
+        yang mustahil bisa terjadi.
+      </p>
+      <br />
+      <br />
+      <br />
+      <h3>Details</h3>
+
+      <div class="container text-center">
+        <div class="row row-cols-2">
+          <div class="col">Jumlah Halaman: 436</div>
+          <br /> <br />
+          <div class="col">Penerbit: Kawah Media</div>
+          <br /><br />
+          <div class="col">Tanggal Terbit: 31 Mar 2023</div>
+          <br /><br />
+          <div class="col">Berat: 0.29 kg</div>
+          <br /><br />
+          <div class="col">ISBN: 9786022204909</div>
+          <br /><br />
+          <div class="col">Lebar: 13 cm</div>
+          <br /><br />
+          <div class="col">Bahasa: Indonesia</div>
+          <br /><br />
+          <div class="col">Panjang: 19cm</div>
+          <br />
+        </div>
+      </div>
+      <br />
+
+      <button class="btn btn-warning" onclick="addToCart(1)">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a
+              href="index.html"
+              class="nav-link px-2"
+              style="color: rgb(249, 226, 195)"
+              >Wisteria Bookstore</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="shoppingcart.html"
+              class="nav-link px-2"
+              style="color: rgb(249, 226, 195)"
+              >Shopping Cart</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="contact.html"
+              class="nav-link px-2"
+              style="color: rgb(249, 226, 195)"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <p class="text-center" style="color: rgb(249, 226, 195)">
+          © 2024 Wisteria Bookstore. Semua hak dilindungi.
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./assets/images/backgroud.jpg); 
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+a{
+    color: rgb(249, 226, 195);
+  }
+  h1{
+    color: rgb(255, 169, 93);
+    text-align: center;
+  }
+
+  p{
+    color: rgb(248, 221, 185);
+  }
+  nav{
+    background-color: rgb(70, 40, 0);
+  }
+  h2{
+    color: rgb(255, 169, 93);
+    text-align: center;
+  }
+
+  img{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+  }
+
+  .card{
+    background-color: rgb(172, 109, 53); 
+  }
+
+  .col{
+    color: rgb(248, 221, 185);
+  }
+
+  h3{
+    color: rgb(248, 221, 185);
+    text-align: center;
+  }

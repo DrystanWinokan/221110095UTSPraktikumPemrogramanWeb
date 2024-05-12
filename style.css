@@ -51,3 +51,7 @@ a{
     color: rgb(248, 221, 185);
     text-align: center;
   }
+
+  label{
+    color: rgb(248, 221, 185);
+  }
